@@ -14,11 +14,11 @@ document.body.innerHTML += `<h1>FIT e-mail</h1>`;
 
 const jmeno = prompt ("Zadejte vaše jméno (bez diakritiky)").toLowerCase().trim()
 
-const prijmeni = prompt ("Zadejte vaše příjmení (bez diakritiky").toLowerCase().trim()
+const prijmeni = prompt ("Zadejte vaše příjmení (bez diakritiky)").toLowerCase().trim()
 
 //2. Pomocí metody slice vyřízněte ze jména i příjmení příslušné části.
 
-const userName = jmeno.slice(0,3) + prijmeni.slice(0,5)
+const userName = prijmeni.slice(0,5) + jmeno.slice(0,3)
 
 const atIndex ="@"
 
